@@ -9,28 +9,24 @@ As baby-boomers begin to reach retirement, Pewlett-Hackard is preparing for the 
 
 ## Results
 - A Retirement Titles table was created.
+  - This table holds all the titles of employees who were born between January 1, 1952 and December 31, 1955.
 
 ![retirement_titles](https://github.com/mewers2/Pewlett-Hackard-Analysis/blob/main/Resources/retirement_titles.png)
 
-  + This table holds all the titles of employees who were born between January 1, 1952 and December 31, 1955.
-
 - A Unique Titles table was created.
+  - This table uses the `DISTINCT ON` function to eliminate the multiple titles some employees may have had displayed in the Retirement Titles table and displays only the most recent title held by each employee listed.
 
 ![unique_titles](https://github.com/mewers2/Pewlett-Hackard-Analysis/blob/main/Resources/unique_titles.png)
 
-  + This table uses the `DISTINCT ON` function to eliminate the multiple titles some employees may have had displayed in the Retirement Titles table and displays only the most recent title held by each employee listed.
-
 - A Retiring Titles table was created.
+  - This table uses the `COUNT()` function to summarize how many positions by job title will need to be filled based on the number of retirement-age employees and the job titles they currently hold.
 
 ![retiring_titles](https://github.com/mewers2/Pewlett-Hackard-Analysis/blob/main/Resources/retiring_titles.png)
 
-  + This table uses the `COUNT()` function to summarize how many positions by job title will need to be filled based on the number of retirement-age employees and the job titles they currently hold.
-
 - A Mentorship Eligibility table was created.
+  - This table holds the current employees who were born between January 1, 1965 and December 31, 1965 who would be eligible to participate in a mentorship program where a retiring employee would mentor the junior employee to train him/her to fill the retiree's position.
 
 ![mentorship_eligibility](https://github.com/mewers2/Pewlett-Hackard-Analysis/blob/main/Resources/mentorship_eligibility.png)
-
-  + This table holds the current employees who were born between January 1, 1965 and December 31, 1965 who would be eligible to participate in a mentorship program where a retiring employee would mentor the junior employee to train him/her to fill the retiree's position.
 
 ## Summary
 - There are 72,458 employees who are retirement-age and are eligible to retire during the "silver tsunami."  As the "silver tsunami" begins to take place, to make an impact on the employee deficit caused by the "silver tsunami," Pewlett Hackard HR may need to hire as many as 16,000 employees per year (over a three year timeframe) with a plan for the rest of the positions to be filled in the following 1-2 years.  
